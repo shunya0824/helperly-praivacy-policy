@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Helperly</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        header {
+            background-color: #4A90E2;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            margin: -20px -20px 30px -20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        h2 {
+            color: #4A90E2;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            border-bottom: 2px solid #4A90E2;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            margin: 15px 0 15px 30px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .faq-item {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid #4A90E2;
+        }
+
+        .faq-question {
+            font-weight: bold;
+            color: #4A90E2;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .faq-answer {
+            color: #555;
+        }
+
+        .info-box {
+            background-color: #f0f7ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .link-section {
+            background-color: #f0f7ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .link-section a {
+            color: #4A90E2;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        .link-section a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 40px;
+            border-top: 1px solid #ddd;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Support</h1>
+            <p class="subtitle">We're here to help you</p>
+        </header>
+
+        <section>
+            <h2>About Helperly</h2>
+            <p>Helperly is a platform that connects household service workers (helpers) with customers in Cebu, Philippines. We facilitate service bookings, payments, and communication between helpers and customers.</p>
+        </section>
+
+        <section>
+            <h2>Getting Started</h2>
+
+            <div class="info-box">
+                <h3>For Customers</h3>
+                <p>Looking for household help? Follow these steps:</p>
+                <ul>
+                    <li>Download the Helperly app from the App Store</li>
+                    <li>Create an account and select "Customer"</li>
+                    <li>Complete your profile with your location and preferences</li>
+                    <li>Browse available workers and their services</li>
+                    <li>Book a service and make secure payments through the app</li>
+                </ul>
+            </div>
+
+            <div class="info-box">
+                <h3>For Workers</h3>
+                <p>Want to offer your services? Here's how:</p>
+                <ul>
+                    <li>Download the Helperly app from the App Store</li>
+                    <li>Create an account and select "Worker"</li>
+                    <li>Set up your profile with your experience and services</li>
+                    <li>Set your availability and pricing</li>
+                    <li>Start receiving booking requests from customers</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I create an account?</div>
+                <div class="faq-answer">Download the app, select whether you're a customer or worker, and follow the registration process. You'll need to provide your name, email, phone number, and address.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How do payments work?</div>
+                <div class="faq-answer">All payments are processed securely through Stripe. Customers pay at the time of booking, and the platform fee (20%) is collected. The remaining amount is paid directly between parties.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">What services are available?</div>
+                <div class="faq-answer">Helperly offers various household services including cleaning, babysitting, cooking, laundry, shopping assistance, pet care, elderly care, driving, gardening, and tutoring.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I cancel a booking?</div>
+                <div class="faq-answer">You can cancel a booking through the app. Go to your bookings, select the booking you want to cancel, and follow the cancellation process. Please review our cancellation policy for details on refunds.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Is my payment information secure?</div>
+                <div class="faq-answer">Yes, all payment information is processed and stored securely by Stripe, a PCI DSS compliant payment processor. Helperly does not store your credit card details.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I change my profile information?</div>
+                <div class="faq-answer">Open the app, go to your profile section, and tap "Edit Profile." You can update your name, phone number, address, profile photo, and other information.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I delete my account?</div>
+                <div class="faq-answer">You can request account deletion through the app settings. Go to Settings > Account > Delete Account. Your personal data will be anonymized within 90 days, though transaction records may be retained for legal compliance.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">What languages does the app support?</div>
+                <div class="faq-answer">Helperly supports English, Japanese, Tagalog, and Cebuano to serve our diverse community in Cebu.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Where is Helperly available?</div>
+                <div class="faq-answer">Currently, Helperly operates in Cebu, Philippines, connecting local household service workers with customers in the area.</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Account & Privacy</h2>
+            <p>Your privacy and security are important to us. We use industry-standard security measures to protect your data, including:</p>
+            <ul>
+                <li>Encrypted data transmission (SSL/TLS)</li>
+                <li>Secure authentication with Supabase Auth</li>
+                <li>Row Level Security (RLS) policies in our database</li>
+                <li>Regular security audits and updates</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Safety Tips</h2>
+
+            <h3>For Customers:</h3>
+            <ul>
+                <li>Review worker profiles and ratings before booking</li>
+                <li>Communicate clearly about your service requirements</li>
+                <li>Use the in-app messaging system for all communications</li>
+                <li>Provide feedback and ratings after service completion</li>
+            </ul>
+
+            <h3>For Workers:</h3>
+            <ul>
+                <li>Keep your profile up-to-date with accurate information</li>
+                <li>Maintain clear communication with customers</li>
+                <li>Arrive on time for scheduled services</li>
+                <li>Follow professional standards and safety protocols</li>
+            </ul>
+        </section>
+
+        <div class="link-section">
+            <p><strong>For more information, please see our:</strong></p>
+            <p><a href="index.html">Privacy Policy</a></p>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Helperly. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
