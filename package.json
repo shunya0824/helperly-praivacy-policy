@@ -1,0 +1,8 @@
+{
+  "name": "helperly-privacy-policy",
+  "version": "1.0.0",
+  "description": "Privacy Policy for Helperly App",
+  "scripts": {
+    "deploy": "vercel --prod"
+  }
+}
